@@ -62,7 +62,7 @@ Image CAPTCHA
 
 \[Example Response\]
 
-<img src="media/image1.gif" width="266" height="120" />
+<img src="http://static.toastoven.net/prod_captcha/img_01.gif" />
 
 Confirm CAPTCHA
 ---------------
