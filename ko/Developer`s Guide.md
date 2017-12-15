@@ -113,8 +113,7 @@ GET    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys/{k
 
 [표 3-2]
 
-CAPTCHA  
-확인 Query Parameter
+CAPTCHA 확인 Query Parameter
 
 |이름|	자료형|	설명|
 |---|---|---|
