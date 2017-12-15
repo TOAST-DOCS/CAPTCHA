@@ -21,13 +21,13 @@ POST   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys
 Content-Type  application/json
 ```
 
-[표 2-1]  CAPTCHA 인증키 발급 Path Parameter
+[표 1-1]  CAPTCHA 인증키 발급 Path Parameter
 
 |이름|	자료형|	설명|
 |---|---|---|
 |appkey|	String|	CAPTCHA AppKey|
 
-[표 2-2] CAPTCHA 인증키 발급 response
+[표 1-2] CAPTCHA 인증키 발급 response
 
 |이름|	자료형|	설명|
 |---|---|---|
@@ -80,8 +80,8 @@ GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/sound
 [Example Request]
 
 ```
-image URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
-html에서 image 태그 사용 예 : <img src="https://api-captcha.cloud.toast.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img">
+URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
+Html에서 image 태그 사용 예 : <img src="https://api-captcha.cloud.toast.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img">
 ```
 
 [Example Response]
@@ -90,11 +90,11 @@ html에서 image 태그 사용 예 : <img src="https://api-captcha.cloud.toast.c
 
 ###Sound CAPTCHA example
 ```
-sound URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
+URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
 javascript에서 사용 예
     var audio = new Audio("http://api-captcha.cloud.toast.com/captcha/v1.0/keys/2155776a-54df-4bc9-a27e-01b84d93a368/sound?timestamp=1513324704457");
     audio.play();
- ```
+```
 
 ## 3. CAPTCHA 확인
 
