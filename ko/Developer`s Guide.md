@@ -25,7 +25,7 @@ Content-Type  application/json
 
 |이름|	자료형|	설명|
 |---|---|---|
-|appkey|	String|	CAPTCHA AppKey|
+|appkey|	String|	CAPTCHA appkey|
 
 [표 1-2] CAPTCHA 인증키 발급 response
 
@@ -36,7 +36,7 @@ Content-Type  application/json
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
+URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
 ```
 
 [Example Response]
@@ -72,7 +72,7 @@ GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/sound
 
 |이름|	자료형|	설명|
 |---|---|---|
-|appkey|	String|	CAPTCHA AppKey|
+|appkey|	String|	CAPTCHA appkey|
 |key|	String|	API를 통해 발급 받은 CAPTCHA 인증 키|
 
 
@@ -108,7 +108,7 @@ GET    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys/{k
 
 |이름|	자료형|	설명|
 |---|---|---|
-|appkey|	String|	CAPTCHA AppKey|
+|appkey|	String|	CAPTCHA appkey|
 |key|	String|	API를 통해 발급 받은 CAPTCHA 인증 키|
 
 [표 3-2]
@@ -122,7 +122,7 @@ CAPTCHA 확인 Query Parameter
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
+URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
 ```
 
 [Example Response]
@@ -149,7 +149,7 @@ DELETE   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}?key={
 
 |이름|	자료형|	설명|
 |---|---|---|
-|appkey|	String|	CAPTCHA AppKey|
+|appkey|	String|	CAPTCHA appkey|
 
 [표 4-2] CAPTCHA 인증키 expire Query Parameter
 
@@ -160,7 +160,7 @@ DELETE   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}?key={
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
+URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
 ```
 
 [Example Response]
