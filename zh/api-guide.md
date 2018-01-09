@@ -1,0 +1,1 @@
+## Security > CAPTCHA > API Guide
