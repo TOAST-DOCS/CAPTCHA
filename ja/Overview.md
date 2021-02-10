@@ -24,7 +24,7 @@ CAPTCHA API에서는 다음과 같은 용어를 사용합니다.
 
 |용어|	설명|
 |---|---|
-|AppKey|	TOAST Cloud 사용자 프로젝트와 상품간 1:1 매칭키. 프로젝트당 하나의 App Service Key를 발급합니다.|
+|AppKey|	NHN Cloud Cloud 사용자 프로젝트와 상품간 1:1 매칭키. 프로젝트당 하나의 App Service Key를 발급합니다.|
 |이미지 CAPTCHA|	텍스트가 아닌 일그러진 그림 이미지를 출력하고 답을 요구하는 방식입니다.|
 |음성 CAPTCHA|	잡음에 섞여 들리는 단어를 입력하는 방식입니다.|
 |인증 키|	CAPTCHA API를 통해 발급받은 일련번호입니다.|
