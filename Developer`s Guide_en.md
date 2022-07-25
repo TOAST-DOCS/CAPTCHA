@@ -18,7 +18,7 @@ Issue CAPTCHA Authentication Key
 
 \[URL\]
 
-    POST   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys
+    POST   https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}/keys
     Content-Type  application/json
 
 \[Table 2\] Issue CAPTCHA authentication key Path Parameter
@@ -29,7 +29,7 @@ Issue CAPTCHA Authentication Key
 
 \[Example Request\]
 
-    URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
+    URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
 
 \[Example Response\]
 
@@ -47,7 +47,7 @@ Image CAPTCHA
 
 \[URL\]
 
-    GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
+    GET    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/{key}/img
 
 \[Table 3\] Image CAPTCHA Path Parameter
 
@@ -58,7 +58,7 @@ Image CAPTCHA
 
 \[Example Request\]
 
-    URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img
+    URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img
 
 \[Example Response\]
 
@@ -69,7 +69,7 @@ Confirm CAPTCHA
 
 \[URL\]
 
-    GET    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys/{key}/verification?answer={answer}
+    GET    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}/keys/{key}/verification?answer={answer}
 
 \[Table 4\] Confirm CAPTCHA Path Parameter
 
@@ -89,7 +89,7 @@ Confirm Query Parameter
 
 \[Example Request\]
 
-    URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
+    URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
 
 \[Example Response\]
 
@@ -106,7 +106,7 @@ CAPTCHA Authentication Key Expire
 
 \[URL\]
 
-    DELETE   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}?key={key}
+    DELETE   https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}?key={key}
 
 \[Table 6\] CAPTCHA authentication key expire Path Parameter
 
@@ -122,7 +122,7 @@ CAPTCHA Authentication Key Expire
 
 \[Example Request\]
 
-    URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
+    URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/ 2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
 
 \[Example Response\]
 
