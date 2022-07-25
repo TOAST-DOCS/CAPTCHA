@@ -17,7 +17,7 @@ Console에서 CAPTCHA 서비스를 활성화 한 후 [표 1]의 API 호출을 �
 [URL]
 
 ```
-POST   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys
+POST   https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}/keys
 Content-Type  application/json
 ```
 
@@ -36,7 +36,7 @@ Content-Type  application/json
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
+URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys
 ```
 
 [Example Response]
@@ -59,13 +59,13 @@ URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8
 ###Image
 
 ```
-GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
+GET    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/{key}/img
 ```
 
 ###Sound
 
 ```
-GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/sound
+GET    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/{key}/sound
 ```
 
 [표 2-1] 이미지 CAPTCHA Path Parameter
@@ -80,8 +80,8 @@ GET    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/sound
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
-Html에서 image 태그 사용 예 : <img src="https://api-captcha.cloud.toast.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img">
+URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/{key}/img
+Html에서 image 태그 사용 예 : <img src="https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/img">
 ```
 
 [Example Response]
@@ -90,9 +90,9 @@ Html에서 image 태그 사용 예 : <img src="https://api-captcha.cloud.toast.c
 
 ###Sound CAPTCHA example
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/keys/{key}/img
+URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/{key}/img
 javascript에서 사용 예
-    var audio = new Audio("http://api-captcha.cloud.toast.com/captcha/v1.0/keys/2155776a-54df-4bc9-a27e-01b84d93a368/sound?timestamp=1513324704457");
+    var audio = new Audio("http://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/keys/2155776a-54df-4bc9-a27e-01b84d93a368/sound?timestamp=1513324704457");
     audio.play();
 ```
 
@@ -101,7 +101,7 @@ javascript에서 사용 예
 [URL]
 
 ```
-GET    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}/keys/{key}/verification?answer={answer}
+GET    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}/keys/{key}/verification?answer={answer}
 ```
 
 [표 3-1] CAPTCHA 확인 Path Parameter
@@ -122,7 +122,7 @@ CAPTCHA 확인 Query Parameter
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
+URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685/keys/a9859757-5b5a-42d1-bc85-c560b0141ec1/verification?answer=EAKJH
 ```
 
 [Example Response]
@@ -142,7 +142,7 @@ URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8
 [URL]
 
 ```
-DELETE   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}?key={key}
+DELETE   https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/{appKey}?key={key}
 ```
 
 [표 4-1] CAPTCHA 인증키 expire Path Parameter
@@ -160,7 +160,7 @@ DELETE   https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/{appKey}?key={
 [Example Request]
 
 ```
-URL    https://api-captcha.cloud.toast.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
+URL    https://kr1-captcha.api.nhncloudservice.com/captcha/v1.0/appkeys/2b847e2a0afd82e8ff45434f32e8e6e62bf56bcf83ca1befb3739ed9460eb685?keys=a9859757-5b5a-42d1-bc85-c560b0141ec1
 ```
 
 [Example Response]
